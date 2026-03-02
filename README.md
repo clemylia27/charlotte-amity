@@ -52,3 +52,12 @@ Ici, on ne cherche pas la perfection syntaxique imposée, mais la texture et l'o
  * Auteur : Finisha (Clemylia27)
  * Note : Ce modèle est le fruit d'un travail acharné sur des datasets faits main. Merci de respecter cette démarche créative.
  * 
+unit les fichiers De Charlotte ;
+
+```
+# 2. Utilisation de la commande système 'cat' pour fusionner les deux parties
+# L'ordre est important : la partie 1 puis la partie 2
+!cat Charlotte-amity/Charlotte-AMITY.Q4_K_M-1.gguf Charlotte-amity/Charlotte-AMITY.Q4_K_M-2.gguf > Charlotte-AMITY.Q4_K_M.gguf
+
+print("✅ Charlotte-Amity est maintenant unifiée en un seul fichier !")
+```
